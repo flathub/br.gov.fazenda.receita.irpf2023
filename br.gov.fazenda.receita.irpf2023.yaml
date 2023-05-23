@@ -210,8 +210,8 @@ modules:
           version-pattern: PAIS__([\d_]+)\.zip
           url-template: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/PAIS__$version.zip
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/PGTOS__20230307_20230308072724.zip
-        sha256: 5c9f96d90ab62ba43a7b800afcfbeae7973108ce47f4a604b2744215041de138
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/PGTOS__20230523_20230523021545.zip
+        sha256: e0f794de32945e6dd251b99b7266d2b070dab70b94c05f48d1d86384551a9260
         strip-components: 2
         x-checker-data:
           type: html
