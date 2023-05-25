@@ -93,8 +93,8 @@ modules:
           version-pattern: AJUST__([\d_]+)\.zip
           url-template: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/AJUST__$version.zip
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BANCO__20230520_20230520021617.zip
-        sha256: e871c13582242e301226ab0a7e2169016876afec20704cfada82357945ac5cac
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BANCO__20230525_20230525021516.zip
+        sha256: 26003fb0ed47462bef37f68e3c441cd33248a9fa173b0318092ecb4b7fe38bfd
         strip-components: 2
         x-checker-data:
           type: html
@@ -102,8 +102,8 @@ modules:
           version-pattern: BANCO__([\d_]+)\.zip
           url-template: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BANCO__$version.zip
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BBENS__20230520_20230520021617.zip
-        sha256: 4cc1ba15db0704d3fed8ef2dda45b4c560b9f64c1b0927078676a084cdde7c0a
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BBENS__20230525_20230525021516.zip
+        sha256: e8bee940699ea61961cbaec3b6aa70f60286312e9f3f3a193433a8464cd5fc93
         strip-components: 2
         x-checker-data:
           type: html
