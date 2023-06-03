@@ -174,8 +174,8 @@ modules:
           version-pattern: LINKS__([\d_]+)\.zip
           url-template: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/LINKS__$version.zip
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/MSGS__20230315_20230315021555.zip
-        sha256: 396b57c5ba26d041b391a492dacb872016919d76a8ded52d33147bce6bac26a3
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/MSGS__20230603_20230603021640.zip
+        sha256: 3e807668ba362d0a08c20b9f0435e96d637ceb1a8bcbfe20fc8fe1f8b0489b9f
         strip-components: 2
         x-checker-data:
           type: html
