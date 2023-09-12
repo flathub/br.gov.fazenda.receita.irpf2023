@@ -43,8 +43,8 @@ modules:
       - ln -s /usr/bin/xdg-open /app/bin/firefox
     sources:
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/arquivos/IRPF2023-1.4.zip
-        sha256: 27aea8c04ddf1eb6f9a66ffb567933a90112a97a6856cec25f15262c56501538
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/arquivos/IRPF2023-1.5.zip
+        sha256: 88956b8ff78c20e1d9d9ef9aa4f9d1fc7d12422610f739f90419b61fc0db6da4
         x-checker-data:
           type: html
           url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/latest.xml
