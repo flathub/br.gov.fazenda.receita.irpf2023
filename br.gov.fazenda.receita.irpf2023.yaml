@@ -47,8 +47,8 @@ modules:
         sha256: 27aea8c04ddf1eb6f9a66ffb567933a90112a97a6856cec25f15262c56501538
         x-checker-data:
           type: html
-          url: https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/dirpf
-          version-pattern: /arquivos/IRPF2023-([\d.]+)\.zip
+          url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/latest.xml
+          version-pattern: <pkgver>([\d.]+)</pkgver>
           url-template: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/arquivos/IRPF2023-$version.zip
           is-main-source: true
       - type: file
