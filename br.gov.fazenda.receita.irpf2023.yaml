@@ -165,8 +165,8 @@ modules:
           version-pattern: IDOSO__([\d_]+)\.zip
           url-template: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/IDOSO__$version.zip
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/LINKS__20230830_20230831021635.zip
-        sha256: 79fcd25227564c5695e79743e520ff016d0dfe190d04add214ce019037461633
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/LINKS__20230911_20230913021634.zip
+        sha256: 1c7f0a62747ffb57cb15f4ca177fbe9e25170fcf93a74056baa581e60288a059
         strip-components: 2
         x-checker-data:
           type: html
