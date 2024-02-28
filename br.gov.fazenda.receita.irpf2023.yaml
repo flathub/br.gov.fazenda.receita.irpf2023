@@ -11,7 +11,7 @@ command: irpf2023
 finish-args:
   - --share=network
   - --socket=x11
-  - --socket=cups # Printing doesn't really work righ now: https://github.com/flatpak/flatpak/issues/3355
+  - --socket=cups
   - --share=ipc
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
   - --env=JAVA_HOME=/app/jre
