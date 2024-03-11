@@ -2,10 +2,10 @@
 Type=Application
 Name=IRPF 2023
 GenericName=Imposto de Renda Pessoa Física 2023
-Comment=Programa de Declaração de Imposto sobre a Renda da Pessoa Física
+Comment=Declare seu imposto de renda (Ano-calendário 2022)
 Icon=br.gov.fazenda.receita.irpf2023
 Exec=irpf2023
-Categories=Network;
+Categories=Office;Network;
 Keywords=dirpf;imposto;irpf;receitanet;
 StartupNotify=true
 StartupWMClass=serpro-ppgd-app-IRPFPGD
