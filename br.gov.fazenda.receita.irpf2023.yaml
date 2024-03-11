@@ -84,8 +84,8 @@ modules:
       - install -Dm644 *.xml /app/share/$FLATPAK_ID/lib/resources
     sources:
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/AJUST__20221227_20230308072724.zip
-        sha256: b341020c9291993adccd5767d8ed3b246a95e9ddfb09ef04bbda7abfdaf12ab9
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/AJUST__20221227_20240310205608.zip
+        sha256: 54b5ad393a2cdeaebec11dbe4412b02b77a4d93f1b9632a02678db5554977b3f
         strip-components: 2
         x-checker-data:
           type: html
@@ -165,8 +165,8 @@ modules:
           version-pattern: IDOSO__([\d_]+)\.zip
           url-template: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/IDOSO__$version.zip
       - type: archive
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/LINKS__20231030_20231031021648.zip
-        sha256: 34208b541ad31f36581f9f92ff56a80108cfc7be3aaaa463bdba00b3dc37f0d5
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/LINKS__20240304_20240310205608.zip
+        sha256: 9adfe1ebf43dde8de799d54036cb8e99063433dafbaa15db29b5e0bc894813b6
         strip-components: 2
         x-checker-data:
           type: html
