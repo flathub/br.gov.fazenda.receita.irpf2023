@@ -5,21 +5,24 @@
   <launchable type="desktop-id">br.gov.fazenda.receita.irpf2023.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
-  <developer_name>SERPRO</developer_name>
-  <summary>File your taxes in Brazil</summary>
-  <summary xml:lang="pt_BR">Programa de Declaração de Imposto sobre a Renda da Pessoa Física</summary>
+  <developer id="br.gov">
+    <name>Special Department of Federal Revenue of Brazil</name>
+    <name xml:lang="pt_BR">Receita Federal do Brasil</name>
+  </developer>
+  <summary>Do your taxes in Brazil (Calendar year of 2022)</summary>
+  <summary xml:lang="pt_BR">Declare seu imposto de renda (Ano-calendário 2022)</summary>
   <description>
-    <p>Software to help Brazilian citizens file their tax return.</p>
-    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by SERPRO.</p>
-  </description>
-  <description xml:lang="pt_BR">
-    <p>Preenche as declarações de Ajuste Anual, Final de Espólio e Saída Definitiva do País 2023, referentes aos rendimentos recebidos durante o ano-calendário de 2022 e para efetuar todos os cálculos necessários à apuração do imposto.</p>
-    <p>AVISO: Este pacote não tem verificação, afiliação ou apoio da SERPRO.</p>
+    <p>IRPF is an app officially distributed by the Special Department of Federal Revenue of Brazil, to help Brazilian citizens file their income tax return.</p>
+    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by any Brazilian government agency.</p>
+    <p xml:lang="pt_BR">Preenche as declarações de Ajuste Anual, Final de Espólio e Saída Definitiva do País 2023, referentes aos rendimentos recebidos durante o ano-calendário de 2022 e para efetuar todos os cálculos necessários à apuração do imposto.</p>
+    <p xml:lang="pt_BR">AVISO: Este pacote não tem verificação, afiliação ou apoio do Serpro ou da Receita Federal.</p>
   </description>
   <url type="homepage">https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda</url>
   <content_rating type="oars-1.1"/>
   <screenshots>
     <screenshot type="default">
+      <caption>Main window</caption>
+      <caption xml:lang="pt_BR">Janela principal</caption>
       <image>https://raw.githubusercontent.com/flathub/br.gov.fazenda.receita.irpf2023/master/screenshots/main.png</image>
     </screenshot>
   </screenshots>
