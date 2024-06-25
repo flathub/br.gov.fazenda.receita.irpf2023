@@ -14,9 +14,9 @@
 
   - type: extra-data
     filename: BANCO.zip
-    url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BANCO__20240314_20240314021652.zip
-    size: 968
-    sha256: 08bab8106de62eef7bd4d4a9ea1c9ce44510250b276374b4307873d4c45e4e7a
+    url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BANCO__20240625_20240625021510.zip
+    size: 945
+    sha256: 6e23e2f3c3b886d60058a426500dc5783a6baf78696063994a6fc4a6a9d57b9e
     x-checker-data:
       type: html
       url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/latest.xml
@@ -25,9 +25,9 @@
 
   - type: extra-data
     filename: BBENS.zip
-    url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BBENS__20240314_20240314021652.zip
-    size: 7153
-    sha256: f949800bcc3c12f4bf7d8c50c9d53c4a9d441d180af1e7406a303d50eaa1cbad
+    url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/BBENS__20240625_20240625021510.zip
+    size: 7151
+    sha256: 38e29929a100284bf23b98754b9066ca6180142859e1cad5746580b832cb0cb0
     x-checker-data:
       type: html
       url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/latest.xml
