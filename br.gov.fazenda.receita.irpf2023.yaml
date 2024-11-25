@@ -29,9 +29,11 @@ modules:
 
   - name: libgnome-stubs
     no-autogen: true
+    subdir: libgnome-stubs
     sources:
-      - type: dir
-        path: tools/libgnome-stubs
+      - type: git
+        url: https://github.com/guihkx/irpf-tools-flatpak.git
+        commit: 984b79398697d138ff8dcce1ff0be44b8d9bb94b
 
   - name: irpf2023
     buildsystem: simple
