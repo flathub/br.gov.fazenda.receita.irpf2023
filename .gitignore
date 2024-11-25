@@ -1,6 +1,7 @@
 builddir/
 repo/
 .flatpak-builder/
+.venv/
 *.flatpak
 *.swp
 *.zip
