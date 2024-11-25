@@ -49,10 +49,10 @@ modules:
         dest-filename: apply_extra
         commands:
           - set -e
-          - export LC_ALL=C
+          - export LC_ALL=C # Suppresses a warning from bsdtar: "bsdtar: Failed to set default locale".
           - mkdir share
           - |
-            bsdtar -C share -xf irpf.zip --strip-components 1 \
+            bsdtar -C share -xf irpf.zip --no-same-permissions --no-same-owner --strip-components 1 \
               --include='IRPF*/help' \
               --include='IRPF*/lib' \
               --include='IRPF*/lib-modulos' \
@@ -62,10 +62,9 @@ modules:
           - |
             for zip in *.zip
             do
-              bsdtar -C share/lib/resources -xf "${zip}" --strip-components 2
+              bsdtar -C share/lib/resources -xf "${zip}" --no-same-permissions --no-same-owner --strip-components 2
               rm -f "${zip}"
             done
-          - chmod -R -x+X share
       - type: script
         dest-filename: irpf2023
         commands:
