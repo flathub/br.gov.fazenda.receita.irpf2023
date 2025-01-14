@@ -87,7 +87,7 @@ modules:
       - type: file
         path: br.gov.fazenda.receita.irpf2023.desktop
       - type: file
-        path: icons/icon-256.png
+        path: icon-256.png
       - type: extra-data
         filename: irpf.zip
         url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/arquivos/IRPF2023-1.7.zip
