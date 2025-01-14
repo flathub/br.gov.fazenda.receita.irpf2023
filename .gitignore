@@ -2,6 +2,8 @@ builddir/
 repo/
 .flatpak-builder/
 .venv/
+generate.py
+requirements.txt
 *.flatpak
 *.swp
 *.zip
