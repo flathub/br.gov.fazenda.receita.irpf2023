@@ -12,9 +12,11 @@
   <summary>Do your taxes in Brazil (Calendar year of 2022)</summary>
   <summary xml:lang="pt_BR">Declare seu imposto de renda (Ano-calendário 2022)</summary>
   <description>
-    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by any Brazilian government agency.**</p>
+    <p>**This is a community package of IRPF 2023 and not officially supported by the Brazilian government.**</p>
+    <p xml:lang="pt_BR">**Este é um pacote comunitário do IRPF 2023 e não conta com o apoio oficial do governo brasileiro.**</p>
+    <p>**This app is only available in Portuguese.**</p>
+    <p xml:lang="pt_BR">**Este aplicativo está disponível apenas em português.**</p>
     <p>IRPF is an app officially distributed by the Special Department of Federal Revenue of Brazil, to help Brazilian citizens file their income tax return.</p>
-    <p xml:lang="pt_BR">**AVISO: Este pacote não tem verificação, afiliação ou apoio do Serpro ou da Receita Federal.**</p>
     <p xml:lang="pt_BR">Preenche as declarações de Ajuste Anual, Final de Espólio e Saída Definitiva do País 2023, referentes aos rendimentos recebidos durante o ano-calendário de 2022 e para efetuar todos os cálculos necessários à apuração do imposto.</p>
   </description>
   <url type="homepage">https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda</url>
