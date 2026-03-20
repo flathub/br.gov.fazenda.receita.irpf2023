@@ -57,6 +57,7 @@ modules:
               --include='IRPF*/lib' \
               --include='IRPF*/lib-modulos' \
               --include='IRPF*/irpf.jar' \
+              --include='IRPF*/IRPF.acb' \
               --include='IRPF*/pgd-updater.jar'
           - rm -f irpf.zip
           - |
