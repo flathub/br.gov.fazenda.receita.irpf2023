@@ -82,7 +82,7 @@ modules:
               echo "${0}: WARNING: Removing unsupported option '${BASH_REMATCH[0]}' from \$_JAVA_OPTIONS" >&2
               export _JAVA_OPTIONS="${_JAVA_OPTIONS//${unsupported_java_option}/}"
             fi
-            exec java -Djdk.gtk.version=2 -jar /app/extra/share/irpf.jar $@
+            cd /app/extra/share && exec java -Djdk.gtk.version=2 -jar irpf.jar $@
       - type: file
         path: br.gov.fazenda.receita.irpf2023.metainfo.xml
       - type: file
