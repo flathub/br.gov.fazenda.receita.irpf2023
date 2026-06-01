@@ -91,9 +91,9 @@ modules:
         path: icon-256.png
       - type: extra-data
         filename: irpf.zip
-        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/arquivos/IRPF2023-1.8.zip
-        sha256: 19cc63bffde9ca196ec889a90aff6dd43bfb093dbcc5ccbfe27449919d4a0e17
-        size: 50473911
+        url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/arquivos/IRPF2023-1.9.zip
+        sha256: 1f74846838a87702e0007f51f34c54d67cf2034554d63f49b56d211d4d7fc904
+        size: 50474509
         x-checker-data:
           type: html
           url: https://downloadirpf.receita.fazenda.gov.br/irpf/2023/irpf/update/latest.xml
