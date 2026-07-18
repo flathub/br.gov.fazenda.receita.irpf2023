@@ -12,8 +12,6 @@
   <summary>Do your taxes in Brazil (Calendar year of 2022)</summary>
   <summary xml:lang="pt_BR">Declare seu imposto de renda (Ano-calendário 2022)</summary>
   <description>
-    <p>**This is a community package of IRPF 2023 and not officially supported by the Brazilian government.**</p>
-    <p xml:lang="pt_BR">**Este é um pacote comunitário do IRPF 2023 e não conta com o apoio oficial do governo brasileiro.**</p>
     <p>**This app is only available in Portuguese.**</p>
     <p xml:lang="pt_BR">**Este aplicativo está disponível apenas em português.**</p>
     <p>IRPF is an app officially distributed by the Special Department of Federal Revenue of Brazil, to help Brazilian citizens file their income tax return.</p>
