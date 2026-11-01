@@ -4,7 +4,7 @@
   <name>IRPF 2023</name>
   <launchable type="desktop-id">br.gov.fazenda.receita.irpf2023.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>LicenseRef-proprietary=https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/lgpd/termo-de-uso</project_license>
   <developer id="br.gov">
     <name>Special Department of Federal Revenue of Brazil</name>
     <name xml:lang="pt_BR">Receita Federal do Brasil</name>
